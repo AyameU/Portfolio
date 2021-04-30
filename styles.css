@@ -52,6 +52,10 @@ nav {
 	border-radius: 50%;
 }
 
+h1 {
+	flex: 1;
+}
+
 li {
 	margin-bottom: 5px;
 }
