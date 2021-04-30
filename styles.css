@@ -36,7 +36,8 @@ li::marker {
 
 /* GENERAL STYLES */
 
-header{
+header, 
+.social {
 	display: flex;
 	align-items: center;
 }
@@ -68,6 +69,14 @@ footer {
 	margin: 60px 0;
 	border-top: 2px solid rgb(164, 126, 249);
 	text-align: center;
+}
+
+.social {
+	justify-content: center;
+}
+
+.social a {
+	margin-left: 10px;
 }
 
 /* NAVIGATION */
